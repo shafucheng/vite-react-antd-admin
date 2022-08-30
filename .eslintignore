@@ -2,3 +2,4 @@ node_modules
 dist
 dist-ssr
 public/config.js
+public/config_full.js
