@@ -2,6 +2,7 @@ import fs from 'fs'
 import path from 'path'
 
 import react from '@vitejs/plugin-react'
+import momentToDayjs from 'unplugin-moment-to-dayjs/vite'
 import { defineConfig } from 'vite'
 
 const packageJson = JSON.parse(
@@ -12,7 +13,7 @@ export default defineConfig({
   define: {
     __APP_VERSION__: `"${packageJson.version}"`,
   },
-  plugins: [react()],
+  plugins: [react(), momentToDayjs()],
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
