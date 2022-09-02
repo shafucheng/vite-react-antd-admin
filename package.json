@@ -11,6 +11,10 @@
     "lint": "lint-staged"
   },
   "dependencies": {
+    "@formily/antd": "^2.2.2",
+    "@formily/core": "^2.2.2",
+    "@formily/react": "^2.2.2",
+    "@formily/reactive": "^2.2.2",
     "antd": "^4.22.8",
     "dayjs": "^1.11.5",
     "lodash-es": "^4.17.21",
