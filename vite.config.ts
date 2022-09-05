@@ -29,6 +29,7 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
+      '~antd': 'antd',
       '@': path.resolve(__dirname, 'src'),
     },
   },
