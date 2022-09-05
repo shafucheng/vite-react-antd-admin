@@ -27,6 +27,7 @@ specifiers:
   lint-staged: ^13.0.3
   lodash-es: ^4.17.21
   prettier: ^2.7.1
+  prop-types: ^15.8.1
   react: ^18.2.0
   react-dom: ^18.2.0
   react-is: ^18.2.0
@@ -38,7 +39,7 @@ specifiers:
 
 dependencies:
   '@ant-design/icons': 4.7.0_biqbaboplfbrettd7655fr4n2y
-  '@formily/antd': 2.2.2_hstdkx7hydwx76sfro3cho3gqu
+  '@formily/antd': 2.2.2_z2ztpp4cnycz52nl2cw4dzxqny
   '@formily/core': 2.2.2
   '@formily/react': 2.2.2_b4ulgi5j7cmjqgymksqamttnbm
   '@formily/reactive': 2.2.2
@@ -46,6 +47,7 @@ dependencies:
   dayjs: 1.11.5
   json-bigint: 1.0.0
   lodash-es: 4.17.21
+  prop-types: 15.8.1
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-is: 18.2.0
@@ -429,7 +431,7 @@ packages:
       - supports-color
     dev: true
 
-  /@formily/antd/2.2.2_hstdkx7hydwx76sfro3cho3gqu:
+  /@formily/antd/2.2.2_z2ztpp4cnycz52nl2cw4dzxqny:
     resolution: {integrity: sha512-ffEKL055H9XIpxtw387pEUXLH0czIxIXB6X8uO6/6Ygm0qZSE8pLO3Wi0WUHRq+/uFizfs91DYKJ0u14D2Xb4Q==}
     engines: {npm: '>=3.0.0'}
     peerDependencies:
@@ -461,8 +463,8 @@ packages:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-is: 18.2.0
-      react-sortable-hoc: 1.11.0_biqbaboplfbrettd7655fr4n2y
-      react-sticky-box: 0.9.3_react@18.2.0
+      react-sortable-hoc: 1.11.0_v2m5e27vhdewzwhryxwfaorcca
+      react-sticky-box: 0.9.3_sh5qlbywuemxd2y3xkrw2y2kr4
     transitivePeerDependencies:
       - prop-types
       - typescript
@@ -4018,9 +4020,10 @@ packages:
       react: 18.2.0
     dev: false
 
-  /react-sortable-hoc/1.11.0_biqbaboplfbrettd7655fr4n2y:
+  /react-sortable-hoc/1.11.0_v2m5e27vhdewzwhryxwfaorcca:
     resolution: {integrity: sha512-v1CDCvdfoR3zLGNp6qsBa4J1BWMEVH25+UKxF/RvQRh+mrB+emqtVHMgZ+WreUiKJoEaiwYoScaueIKhMVBHUg==}
     peerDependencies:
+      prop-types: ^15.5.7
       react: ^0.14.0 || ^15.0.0 || ^16.0.0
       react-dom: ^0.14.0 || ^15.0.0 || ^16.0.0
     dependencies:
@@ -4031,13 +4034,14 @@ packages:
       react-dom: 18.2.0_react@18.2.0
     dev: false
 
-  /react-sticky-box/0.9.3_react@18.2.0:
+  /react-sticky-box/0.9.3_sh5qlbywuemxd2y3xkrw2y2kr4:
     resolution: {integrity: sha512-Y/qO7vTqAvXuRR6G6ZCW4fX2Bz0GZRwiiLTVeZN5CVz9wzs37ev0Xj3KSKF/PzF0jifwATivI4t24qXG8rSz4Q==}
     peerDependencies:
       prop-types: ^15.6.2
       react: ^0.14.0 || ^15.0.0 || ^16.0.0
     dependencies:
       '@babel/runtime': 7.18.9
+      prop-types: 15.8.1
       react: 18.2.0
       resize-observer-polyfill: 1.5.1
     dev: false
