@@ -29,6 +29,7 @@ specifiers:
   prettier: ^2.7.1
   react: ^18.2.0
   react-dom: ^18.2.0
+  react-is: ^18.2.0
   react-router-dom: ^6.3.0
   typescript: ^4.8.2
   unplugin-moment-to-dayjs: ^0.5.0
@@ -37,9 +38,9 @@ specifiers:
 
 dependencies:
   '@ant-design/icons': 4.7.0_biqbaboplfbrettd7655fr4n2y
-  '@formily/antd': 2.2.2_l6frkkh44qbohanm55avywznda
+  '@formily/antd': 2.2.2_hstdkx7hydwx76sfro3cho3gqu
   '@formily/core': 2.2.2
-  '@formily/react': 2.2.2_eiztora27s4myjjjl7tfbsrweu
+  '@formily/react': 2.2.2_b4ulgi5j7cmjqgymksqamttnbm
   '@formily/reactive': 2.2.2
   antd: 4.23.0_biqbaboplfbrettd7655fr4n2y
   dayjs: 1.11.5
@@ -47,6 +48,7 @@ dependencies:
   lodash-es: 4.17.21
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
+  react-is: 18.2.0
   react-router-dom: 6.3.0_biqbaboplfbrettd7655fr4n2y
 
 devDependencies:
@@ -427,7 +429,7 @@ packages:
       - supports-color
     dev: true
 
-  /@formily/antd/2.2.2_l6frkkh44qbohanm55avywznda:
+  /@formily/antd/2.2.2_hstdkx7hydwx76sfro3cho3gqu:
     resolution: {integrity: sha512-ffEKL055H9XIpxtw387pEUXLH0czIxIXB6X8uO6/6Ygm0qZSE8pLO3Wi0WUHRq+/uFizfs91DYKJ0u14D2Xb4Q==}
     engines: {npm: '>=3.0.0'}
     peerDependencies:
@@ -448,9 +450,9 @@ packages:
       '@formily/core': 2.2.2
       '@formily/grid': 2.2.2_typescript@4.8.2
       '@formily/json-schema': 2.2.2_typescript@4.8.2
-      '@formily/react': 2.2.2_eiztora27s4myjjjl7tfbsrweu
+      '@formily/react': 2.2.2_b4ulgi5j7cmjqgymksqamttnbm
       '@formily/reactive': 2.2.2
-      '@formily/reactive-react': 2.2.2_5d4wf3yo6k5smpa3kasqkeetaq
+      '@formily/reactive-react': 2.2.2_vjgetbdbuldh3yoeavkalofraq
       '@formily/shared': 2.2.2
       '@types/react': 18.0.18
       '@types/react-dom': 18.0.6
@@ -458,6 +460,7 @@ packages:
       classnames: 2.3.1
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
+      react-is: 18.2.0
       react-sortable-hoc: 1.11.0_biqbaboplfbrettd7655fr4n2y
       react-sticky-box: 0.9.3_react@18.2.0
     transitivePeerDependencies:
@@ -502,7 +505,7 @@ packages:
     engines: {npm: '>=3.0.0'}
     dev: false
 
-  /@formily/react/2.2.2_eiztora27s4myjjjl7tfbsrweu:
+  /@formily/react/2.2.2_b4ulgi5j7cmjqgymksqamttnbm:
     resolution: {integrity: sha512-+qbzriA7pq+GDKsvvaXDbhInlDrCtwOdVAugatMgEaaCFE9BTUO22WoRjjGmdVeLA3nVARv4gNyI6LYOinsMug==}
     engines: {npm: '>=3.0.0'}
     peerDependencies:
@@ -520,7 +523,7 @@ packages:
       '@formily/core': 2.2.2
       '@formily/json-schema': 2.2.2_typescript@4.8.2
       '@formily/reactive': 2.2.2
-      '@formily/reactive-react': 2.2.2_5d4wf3yo6k5smpa3kasqkeetaq
+      '@formily/reactive-react': 2.2.2_vjgetbdbuldh3yoeavkalofraq
       '@formily/shared': 2.2.2
       '@formily/validator': 2.2.2
       '@types/react': 18.0.18
@@ -528,11 +531,12 @@ packages:
       hoist-non-react-statics: 3.3.2
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
+      react-is: 18.2.0
     transitivePeerDependencies:
       - typescript
     dev: false
 
-  /@formily/reactive-react/2.2.2_5d4wf3yo6k5smpa3kasqkeetaq:
+  /@formily/reactive-react/2.2.2_vjgetbdbuldh3yoeavkalofraq:
     resolution: {integrity: sha512-bH7u8BGE+tFgzYdoPZBYyMqZMkKWf1noFZUMfk/iM0QBzkNS8Vpu2PqFqS12T5jsjzUoig5uMTYx7jWySb/a+w==}
     engines: {npm: '>=3.0.0'}
     peerDependencies:
@@ -553,6 +557,7 @@ packages:
       hoist-non-react-statics: 3.3.2
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
+      react-is: 18.2.0
     dev: false
 
   /@formily/reactive/2.2.2:
@@ -3982,6 +3987,10 @@ packages:
 
   /react-is/16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
+
+  /react-is/18.2.0:
+    resolution: {integrity: sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==}
+    dev: false
 
   /react-refresh/0.14.0:
     resolution: {integrity: sha512-wViHqhAd8OHeLS/IRMJjTSDHF3U9eWi62F/MledQGPdJGDhodXJ9PBLNGr6WWL7qlH12Mt3TyTpbS+hGXMjCzQ==}
