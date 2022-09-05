@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@ant-design/icons': ^4.7.0
   '@formily/antd': ^2.2.2
   '@formily/core': ^2.2.2
   '@formily/react': ^2.2.2
@@ -35,7 +36,8 @@ specifiers:
   vite-plugin-imp: ^2.3.0
 
 dependencies:
-  '@formily/antd': 2.2.2_lkylbjvp4yl7i7dlwt7hz37jqm
+  '@ant-design/icons': 4.7.0_biqbaboplfbrettd7655fr4n2y
+  '@formily/antd': 2.2.2_l6frkkh44qbohanm55avywznda
   '@formily/core': 2.2.2
   '@formily/react': 2.2.2_eiztora27s4myjjjl7tfbsrweu
   '@formily/reactive': 2.2.2
@@ -425,7 +427,7 @@ packages:
       - supports-color
     dev: true
 
-  /@formily/antd/2.2.2_lkylbjvp4yl7i7dlwt7hz37jqm:
+  /@formily/antd/2.2.2_l6frkkh44qbohanm55avywznda:
     resolution: {integrity: sha512-ffEKL055H9XIpxtw387pEUXLH0czIxIXB6X8uO6/6Ygm0qZSE8pLO3Wi0WUHRq+/uFizfs91DYKJ0u14D2Xb4Q==}
     engines: {npm: '>=3.0.0'}
     peerDependencies:
@@ -442,6 +444,7 @@ packages:
       '@types/react-dom':
         optional: true
     dependencies:
+      '@ant-design/icons': 4.7.0_biqbaboplfbrettd7655fr4n2y
       '@formily/core': 2.2.2
       '@formily/grid': 2.2.2_typescript@4.8.2
       '@formily/json-schema': 2.2.2_typescript@4.8.2
