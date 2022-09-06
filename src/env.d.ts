@@ -1,5 +1,15 @@
 /// <reference types="vite/client" />
 
+// global config
+interface GlobalConfig {
+  APP_BASEURL?: string
+}
+export declare global {
+  interface Window {
+    __CONFIG__?: GlobalConfig
+  }
+}
+
 // vite define
 declare const __APP_VERSION__: string
 
