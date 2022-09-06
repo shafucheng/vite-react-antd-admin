@@ -14,6 +14,7 @@ specifiers:
   '@types/react-dom': ^18.0.6
   '@typescript-eslint/eslint-plugin': ^5.36.1
   '@typescript-eslint/parser': ^5.36.1
+  '@vitejs/plugin-basic-ssl': ^0.1.2
   '@vitejs/plugin-react': ^2.0.1
   antd: ^4.23.0
   dayjs: ^1.11.5
@@ -64,6 +65,7 @@ devDependencies:
   '@types/react-dom': 18.0.6
   '@typescript-eslint/eslint-plugin': 5.36.1_lbwfnm54o3pmr3ypeqp3btnera
   '@typescript-eslint/parser': 5.36.1_yqf6kl63nyoq5megxukfnom5rm
+  '@vitejs/plugin-basic-ssl': 0.1.2_vite@3.0.9
   '@vitejs/plugin-react': 2.0.1_vite@3.0.9
   eslint: 8.23.0
   eslint-config-prettier: 8.5.0_eslint@8.23.0
@@ -1162,6 +1164,15 @@ packages:
       '@unocss/scope': 0.45.18
       '@unocss/transformer-directives': 0.45.18
       magic-string: 0.26.3
+      vite: 3.0.9_less@4.1.3
+    dev: true
+
+  /@vitejs/plugin-basic-ssl/0.1.2_vite@3.0.9:
+    resolution: {integrity: sha512-EdwCHnbkakR6YPupySZm1WoCDRPaw9c5jObAo2pCRv8Ja2TESFC6Sc8RUOcKuihfjARDfszbBf+YEQwHY9s9wg==}
+    engines: {node: '>=14.6.0'}
+    peerDependencies:
+      vite: ^3.0.0-beta.0
+    dependencies:
       vite: 3.0.9_less@4.1.3
     dev: true
 
