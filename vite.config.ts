@@ -2,6 +2,7 @@ import fs from 'fs'
 import path from 'path'
 
 import react from '@vitejs/plugin-react'
+import unocss from 'unocss/vite'
 import momentToDayjs from 'unplugin-moment-to-dayjs/vite'
 import { defineConfig } from 'vite'
 import imp from 'vite-plugin-imp'
@@ -16,6 +17,7 @@ export default defineConfig({
   },
   plugins: [
     react(),
+    unocss(),
     momentToDayjs(),
     imp({
       libList: [
