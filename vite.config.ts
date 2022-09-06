@@ -1,6 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 
+import basicSsl from '@vitejs/plugin-basic-ssl'
 import react from '@vitejs/plugin-react'
 import unocss from 'unocss/vite'
 import momentToDayjs from 'unplugin-moment-to-dayjs/vite'
@@ -16,6 +17,7 @@ export default defineConfig({
     __APP_VERSION__: `"${packageJson.version}"`,
   },
   plugins: [
+    basicSsl(),
     react(),
     unocss(),
     momentToDayjs(),
